@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BUAD 497 Research Participation | USC Marshall Behavioral Research Lab</title>
+<meta name="description" content="How BUAD 497 students earn 2.0 research participation credits through SONA: what to do, key dates, study types, location, and FAQs.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="BUAD 497 Research Participation">
+<meta property="og:description" content="What to do, when it is due, and how to earn your 2.0 research credits.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f2ee; --card:#faf9f6; --card-alt:#f7f5f1; --surface:#ffffff;
+    --border:#ded9d1; --border-strong:#c8c1b5;
+    --text:#26241f; --text-soft:#3a3a3a; --muted:#65625c;
+    --cardinal:#7a0019; --cardinal-bright:#8f0014;
+    --cardinal-tint:#fbeef0; --cardinal-tint-border:#edc9ce;
+    --cardinal-grad-a:#8c0019; --cardinal-grad-b:#5e0012;
+    --gold:#7d6209; --gold-soft:#9c7d1f;
+    --gold-tint:#faf4e4; --gold-tint-border:#e4d3a6;
+    --gold-grad-a:#735c0d; --gold-grad-b:#544409;
+    --green:#2f6b2f; --green-tint:#eef6ee; --green-tint-border:#c3ddc3;
+    --focus:#0a5ad6;
+    --on-cardinal:#ffffff; --on-gold:#ffffff;
+    --shadow:0 1px 2px rgba(40,30,15,.06);
+    --radius:14px;
+    --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+    --sans:'Source Sans 3',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#16120f; --card:#1e1813; --card-alt:#231c16; --surface:#241d17;
+      --border:#3d342b; --border-strong:#554a3e;
+      --text:#f1eae0; --text-soft:#ddd4c7; --muted:#b0a596;
+      --cardinal:#f07d90; --cardinal-bright:#ff93a3;
+      --cardinal-tint:#3a191f; --cardinal-tint-border:#632c37;
+      --cardinal-grad-a:#8c0019; --cardinal-grad-b:#5e0012;
+      --gold:#e6c060; --gold-soft:#c9a44a;
+      --gold-tint:#332912; --gold-tint-border:#584821;
+      --gold-grad-a:#5c4a0b; --gold-grad-b:#443608;
+      --green:#8ccd8c; --green-tint:#182a18; --green-tint-border:#2f4f2f;
+      --focus:#7fb4ff;
+      --on-cardinal:#2b0a10; --on-gold:#2a2205;
+      --shadow:0 1px 3px rgba(0,0,0,.45);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#16120f; --card:#1e1813; --card-alt:#231c16; --surface:#241d17;
+    --border:#3d342b; --border-strong:#554a3e;
+    --text:#f1eae0; --text-soft:#ddd4c7; --muted:#b0a596;
+    --cardinal:#f07d90; --cardinal-bright:#ff93a3;
+    --cardinal-tint:#3a191f; --cardinal-tint-border:#632c37;
+    --cardinal-grad-a:#8c0019; --cardinal-grad-b:#5e0012;
+    --gold:#e6c060; --gold-soft:#c9a44a;
+    --gold-tint:#332912; --gold-tint-border:#584821;
+    --gold-grad-a:#5c4a0b; --gold-grad-b:#443608;
+    --green:#8ccd8c; --green-tint:#182a18; --green-tint-border:#2f4f2f;
+    --focus:#7fb4ff;
+    --on-cardinal:#2b0a10; --on-gold:#2a2205;
+    --shadow:0 1px 3px rgba(0,0,0,.45);
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{transition:none!important;animation:none!important} }
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .page{max-width:940px;margin:0 auto;padding:0 18px 70px;}
+  [id]{scroll-margin-top:72px;}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px;}
+
+  /* links inside prose are underlined, not colour-only */
+  .prose a, p a, li a, dd a, td a{color:var(--cardinal-bright);text-decoration:underline;text-underline-offset:2px;}
+  .prose a:hover, p a:hover, li a:hover, dd a:hover{text-decoration-thickness:2px;}
+  a{color:var(--cardinal-bright);}
+
+  .skip{position:absolute;left:-9999px;top:0;background:var(--cardinal);color:var(--on-cardinal);padding:12px 18px;z-index:50;border-radius:0 0 8px 0;font-weight:700;}
+  .skip:focus{left:0;}
+
+  /* ---------- Sticky nav ---------- */
+  .quicknav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--border);}
+  .quicknav-in{max-width:940px;margin:0 auto;padding:8px 14px;display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+  .quicknav-in::-webkit-scrollbar{display:none;}
+  .quicknav-in a{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;min-height:44px;padding:0 15px;border-radius:22px;background:var(--card-alt);border:1px solid var(--border);color:var(--text-soft);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap;}
+  .quicknav-in a:hover{border-color:var(--cardinal);color:var(--cardinal);}
+  .icon{width:1.1em;height:1.1em;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;}
+
+  .top-btn{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:52px;height:52px;border-radius:50%;background:var(--cardinal);color:var(--on-cardinal);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.3);z-index:30;text-decoration:none;}
+  .top-btn .icon{width:24px;height:24px;stroke-width:2.2;}
+
+  /* ---------- Masthead ---------- */
+  .masthead{padding:30px 0 20px;border-bottom:4px solid var(--cardinal);margin-bottom:28px;}
+  .eyebrow{font-size:13px;letter-spacing:.14em;font-weight:700;text-transform:uppercase;color:var(--cardinal);}
+  h1.title{font-family:var(--serif);font-weight:600;font-size:clamp(34px,7.2vw,58px);line-height:1.04;margin:6px 0 0;letter-spacing:-.01em;text-wrap:balance;}
+  @media(max-width:560px){ .masthead{padding:20px 0 16px;margin-bottom:22px;} }
+
+  /* ---------- At a glance ---------- */
+  .glance{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin:20px 0 0;}
+  .glance div.row{display:grid;grid-template-columns:170px 1fr;gap:16px;align-items:start;padding:15px 18px;border-bottom:1px solid var(--border);}
+  .glance div.row:last-child{border-bottom:0;}
+  .glance dt{display:flex;align-items:center;gap:11px;font-size:12.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--cardinal);font-weight:700;margin:0;}
+  .g-ico{width:40px;height:40px;border-radius:10px;background:var(--cardinal-tint);color:var(--cardinal);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .g-ico .icon{width:21px;height:21px;}
+  .glance dd{margin:0;font-size:16.5px;line-height:1.45;padding-top:9px;}
+  .glance dd .sub{display:block;font-size:14px;color:var(--muted);margin-top:3px;}
+  @media(max-width:620px){
+    .glance div.row{grid-template-columns:1fr;gap:5px;padding:12px 14px;}
+    .glance dt{font-size:12px;gap:10px;}
+    .g-ico{width:34px;height:34px;border-radius:9px;}
+    .g-ico .icon{width:18px;height:18px;}
+    .glance dd{padding-top:0;padding-left:44px;font-size:15.5px;line-height:1.38;}
+    .glance dd .sub{font-size:13.5px;line-height:1.35;}
+  }
+
+  .badges{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px;}
+  .badge-pill{display:inline-flex;align-items:center;gap:7px;background:var(--green-tint);border:1px solid var(--green-tint-border);color:var(--green);font-weight:600;font-size:14px;border-radius:22px;padding:8px 15px;}
+  .badge-pill .icon{width:16px;height:16px;stroke-width:2.4;}
+
+  /* ---------- Section frame ---------- */
+  section{margin:0 0 26px;}
+  h2.sec{font-family:var(--serif);font-weight:600;font-size:clamp(24px,5.2vw,30px);margin:34px 0 4px;display:flex;align-items:center;gap:11px;text-wrap:balance;}
+  h2.sec .icon{width:1em;height:1em;color:var(--cardinal);stroke-width:2;}
+  .sec-sub{color:var(--muted);margin:0 0 16px;font-size:16px;}
+  .shell{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px 20px;}
+  @media(min-width:721px){ .shell{padding:26px 28px;} }
+
+  /* ---------- Timeline ---------- */
+  .tl-wrap{margin-top:8px;}
+  .tl-row{display:grid;grid-template-columns:52px 1fr;gap:14px;position:relative;padding-bottom:20px;}
+  .tl-row:last-child{padding-bottom:0;}
+  .tl-row::before{content:"";position:absolute;left:25px;top:52px;bottom:-4px;width:3px;background:var(--border-strong);border-radius:2px;}
+  .tl-row:last-child::before{display:none;}
+  .tl-row.done::before{background:var(--cardinal);}
+  .tl-dot{width:52px;height:52px;border-radius:50%;border:3px solid var(--border-strong);background:var(--surface);color:var(--muted);display:flex;align-items:center;justify-content:center;position:relative;z-index:1;}
+  .tl-dot .icon{width:23px;height:23px;}
+  .tl-row.now .tl-dot{border-color:var(--cardinal);background:var(--cardinal);color:var(--on-cardinal);box-shadow:0 0 0 5px var(--cardinal-tint);}
+  .tl-row.soon .tl-dot{border-color:var(--cardinal);color:var(--cardinal);}
+  .tl-row.later .tl-dot{border-color:var(--gold-soft);color:var(--gold);}
+  .tl-body{padding-top:3px;}
+  .tl-when{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);}
+  .tl-row.now .tl-when{color:var(--cardinal);}
+  .tl-row.later .tl-when{color:var(--gold);}
+  .tl-body h3{font-family:var(--serif);font-weight:600;font-size:19px;margin:3px 0 3px;}
+  .tl-body p{margin:0;font-size:15.5px;color:var(--text-soft);}
+  .now-tag{display:inline-block;background:var(--cardinal);color:var(--on-cardinal);font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:5px;padding:2px 8px;margin-left:8px;vertical-align:2px;}
+
+  /* ---------- Checklist ---------- */
+  .prog{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 18px;margin-bottom:16px;box-shadow:var(--shadow);}
+  .prog-head{margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:15px;font-weight:600;}
+  .prog-count{color:var(--cardinal);font-weight:700;}
+  .prog-track{display:block;height:12px;border-radius:6px;background:var(--card-alt);border:1px solid var(--border);margin-top:9px;overflow:hidden;}
+  .prog-fill{display:block;height:100%;width:0;background:var(--cardinal);border-radius:5px;transition:width .25s ease;}
+
+  .task{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start;background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--cardinal);border-radius:12px;padding:14px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .task.later{border-left-color:var(--gold-soft);}
+  .t-ico{width:44px;height:44px;border-radius:11px;background:var(--cardinal-tint);color:var(--cardinal);display:flex;align-items:center;justify-content:center;}
+  .task.later .t-ico{background:var(--gold-tint);color:var(--gold);}
+  .t-ico .icon{width:22px;height:22px;}
+  .t-when{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--cardinal);background:var(--cardinal-tint);border:1px solid var(--cardinal-tint-border);border-radius:5px;padding:2px 8px;margin-bottom:5px;}
+  .task.later .t-when{color:var(--gold);background:var(--gold-tint);border-color:var(--gold-tint-border);}
+  .task h3{font-family:var(--serif);font-weight:600;font-size:19px;margin:0 0 3px;}
+  .task p{margin:0;font-size:15.5px;color:var(--text-soft);}
+  .t-check{display:flex;align-items:center;gap:10px;min-height:44px;margin-top:6px;cursor:pointer;font-size:15px;font-weight:600;color:var(--muted);width:fit-content;padding-right:8px;}
+  .t-check input{width:24px;height:24px;accent-color:var(--cardinal);cursor:pointer;flex:0 0 auto;}
+  .task.done{background:var(--card-alt);}
+  .task.done h3{text-decoration:line-through;color:var(--muted);}
+  .task.done .t-ico{background:var(--green-tint);color:var(--green);}
+
+  /* ---------- Accordions ---------- */
+  .acc{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden;box-shadow:var(--shadow);}
+  .acc>summary{display:flex;align-items:center;gap:13px;min-height:60px;padding:12px 16px;cursor:pointer;list-style:none;font-weight:600;}
+  .acc>summary::-webkit-details-marker{display:none;}
+  .acc>summary:hover{background:var(--card-alt);}
+  .acc .s-ico{width:40px;height:40px;border-radius:10px;background:var(--cardinal-tint);color:var(--cardinal);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .acc .s-ico .icon{width:21px;height:21px;}
+  .acc h2.sum-h{font-family:var(--serif);font-weight:600;font-size:19.5px;margin:0;flex:1;}
+  .acc .s-note{display:block;font-family:var(--sans);font-size:13.5px;font-weight:400;color:var(--muted);margin-top:1px;}
+  .acc .chev{width:22px;height:22px;color:var(--muted);flex:0 0 auto;transition:transform .2s ease;}
+  .acc[open]>summary .chev{transform:rotate(180deg);}
+  .acc[open]>summary{border-bottom:1px solid var(--border);}
+  .acc-body{padding:16px;}
+  @media(min-width:721px){ .acc-body{padding:20px 22px;} }
+  .acc-body>*:first-child{margin-top:0;}
+  .acc-body h3{font-family:var(--serif);font-weight:600;font-size:18px;margin:20px 0 8px;}
+  .acc-body h3:first-child{margin-top:0;}
+  .expand-all{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--border);background:var(--card-alt);color:var(--text-soft);font:inherit;font-size:14.5px;font-weight:600;cursor:pointer;margin-bottom:14px;}
+  .expand-all:hover{border-color:var(--cardinal);color:var(--cardinal);}
+
+  /* ---------- Generic content bits ---------- */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media(max-width:720px){.grid2{grid-template-columns:1fr;}}
+  @media(min-width:721px){.loc-grid{grid-template-columns:1.6fr 1fr;}}
+  .list{margin:0;padding-left:22px;font-size:16px;color:var(--text-soft);}
+  .list li{margin:9px 0;}
+  .list b{color:var(--text);}
+  .note{border-radius:10px;padding:14px 16px;font-size:15.5px;border:1px solid var(--border);background:var(--card-alt);display:flex;gap:11px;align-items:flex-start;}
+  .note .icon{width:21px;height:21px;flex:0 0 auto;margin-top:2px;color:var(--cardinal);}
+  .note.warn{background:var(--cardinal-tint);border-color:var(--cardinal-tint-border);}
+  .note.gold{background:var(--gold-tint);border-color:var(--gold-tint-border);}
+  .note.gold .icon{color:var(--gold);}
+  .note p{margin:0;}
+  .note b{color:var(--cardinal);}
+  .note.gold b{color:var(--gold);}
+
+  .pair{border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+  .pair-head{display:flex;align-items:center;gap:9px;padding:11px 15px;color:var(--on-cardinal);font-weight:700;font-size:15.5px;}
+  .pair-head.red{background:var(--cardinal);}
+  .pair-head.gold{background:var(--gold);color:var(--on-gold);}
+  .pair-head.grey{background:#565049;color:#fff;}
+  .pair-head .icon{width:19px;height:19px;}
+  .pair-body{padding:14px 16px;background:var(--surface);}
+  .pair-body ul{margin:0;padding-left:20px;font-size:15.5px;color:var(--text-soft);}
+  .pair-body li{margin:7px 0;}
+  .spec{width:100%;border-collapse:collapse;font-size:15.5px;}
+  .spec th{text-align:left;font-weight:700;color:var(--text-soft);padding:9px 0;width:38%;vertical-align:top;border-bottom:1px solid var(--border);}
+  .spec td{padding:9px 0;border-bottom:1px solid var(--border);vertical-align:top;color:var(--text-soft);}
+  .spec tr:last-child th,.spec tr:last-child td{border-bottom:0;}
+
+  .ex{border-radius:10px;padding:14px 16px;}
+  .ex.yes{background:var(--green-tint);border:1px solid var(--green-tint-border);border-left:5px solid var(--green);}
+  .ex.no{background:var(--cardinal-tint);border:1px solid var(--cardinal-tint-border);border-left:5px solid var(--cardinal);}
+  .ex h3{display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:16px;font-family:var(--sans);font-weight:700;}
+  .ex.yes h3{color:var(--green);} .ex.no h3{color:var(--cardinal);}
+  .ex ul{margin:0;padding-left:20px;font-size:15.5px;color:var(--text-soft);}
+  .ex li{margin:5px 0;}
+
+  .qa h4{margin:0 0 3px;font-size:16.5px;color:var(--cardinal);}
+  .qa p{margin:0 0 16px;font-size:15.5px;color:var(--text-soft);}
+  .faq-grp{font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;border-left:3px solid var(--cardinal);padding-left:10px;margin:22px 0 12px;font-family:var(--sans);}
+
+  .goal{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:var(--gold-tint);border:1px solid var(--gold-tint-border);border-radius:12px;padding:18px 20px;margin-top:14px;}
+  @media(max-width:560px){.goal{grid-template-columns:1fr;text-align:center;}}
+  .goal .bignum{font-family:var(--serif);font-weight:700;color:var(--gold);line-height:.9;text-align:center;}
+  .goal .bignum .n{display:block;font-size:44px;}
+  .goal .bignum .l{font-size:12.5px;letter-spacing:.1em;}
+  .goal p{margin:0;font-size:15.5px;color:var(--text-soft);}
+  .goal .cps{margin-top:8px;font-size:15px;}
+  .goal .cps b{color:var(--gold);}
+
+  /* location + floor plan */
+  .loc{background:var(--gold-tint);border:1px solid var(--gold-tint-border);border-radius:12px;padding:18px 20px;}
+  .loc .addr{font-weight:700;font-size:17px;margin:0;}
+  .loc .addr2{color:var(--muted);margin:2px 0 10px;font-size:15.5px;}
+  .loc p.how{color:var(--text-soft);font-size:15.5px;margin:0 0 12px;}
+  .qr-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+  .qr-card img{width:120px;height:120px;display:block;}
+  .qr-card .cap{font-size:13px;color:var(--muted);margin-top:10px;font-weight:600;}
+  .qr-card .cap a{display:inline-block;min-height:44px;line-height:44px;}
+  .floor-wrap{margin-top:14px;text-align:center;}
+  .floor-hint{font-size:13.5px;color:var(--muted);margin:0 0 8px;}
+  .floor-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:2px;}
+  .floor{position:relative;width:660px;margin:0 auto;border:2px solid #b9b1a3;border-radius:8px;background:#fbf9f4;height:290px;}
+  .fp{position:absolute;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:#fff;text-align:center;line-height:1.2;}
+  .fp small{font-weight:500;font-size:10px;opacity:.9;}
+  .fp.lab{background:#7d6209;} .fp.suite{background:#7a0019;}
+  .fp.ent{background:#6a5207;font-size:10px;color:#fff;}
+  .fp.exit{background:#8f0014;font-size:10px;}
+  .fp.util{background:#eceae3;color:#4a463f;border:1px solid #c3bcae;font-size:10px;}
+  .fp.stairs{background:#eceae3;color:#5a554c;border:1px dashed #b9b1a3;font-size:11px;}
+  .compass{position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;border:1px solid #7a0019;color:#7a0019;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;background:#fff;}
+  .fp-legend{display:flex;gap:13px;flex-wrap:wrap;justify-content:center;margin-top:14px;font-size:13px;color:var(--muted);}
+  .fp-legend span{display:inline-flex;align-items:center;gap:6px;}
+  .sw{width:13px;height:13px;border-radius:3px;display:inline-block;}
+
+  /* contact */
+  .touch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:780px){.touch-grid{grid-template-columns:1fr;}}
+  .touch-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);}
+  .touch-card h3{display:flex;align-items:center;gap:9px;margin:0 0 8px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--cardinal);font-weight:700;font-family:var(--sans);}
+  .touch-card .big{font-size:17px;font-weight:700;margin:3px 0;}
+  .touch-card .big a{min-height:44px;display:inline-flex;align-items:center;}
+  .touch-card p{margin:3px 0;font-size:14.5px;color:var(--muted);}
+
+  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:780px){.why-grid{grid-template-columns:1fr;}}
+  .why-card{background:var(--card-alt);border:1px solid var(--border);border-radius:12px;padding:16px 18px;}
+  .why-card h3{font-family:var(--serif);font-size:18px;margin:0 0 6px;color:var(--cardinal);}
+  .why-card p{margin:0;font-size:15.5px;color:var(--text-soft);}
+
+  .guide-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--cardinal);color:var(--on-cardinal);border-radius:12px;padding:18px 20px;margin-top:22px;}
+  .guide-cta strong{font-family:var(--serif);font-size:19px;display:block;}
+  .guide-cta p{margin:3px 0 0;color:var(--on-cardinal);opacity:.85;font-size:15px;}
+  .guide-cta a.btn{background:var(--on-cardinal);color:var(--cardinal);font-weight:700;padding:0 18px;min-height:44px;display:inline-flex;align-items:center;border-radius:8px;text-decoration:none;}
+  footer.foot{margin-top:30px;padding-top:16px;border-top:1px solid var(--border);font-size:13.5px;color:var(--muted);text-align:center;}
+
+  /* standalone reset (the hosted artifact wrapper normally supplies this) */
+  :root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);}
+  :root[data-theme="light"]{color-scheme:light;}
+  :root[data-theme="dark"]{color-scheme:dark;}
+  img{max-width:100%;}
+  [hidden]{display:none!important;}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2.5 19.5h19"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 114.2 2c-.9.7-1.8 1.2-1.8 2.4"/><circle cx="12" cy="17" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3.8 7l8.2 6 8.2-6"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3.5M15.5 12v2.5"/></symbol>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16" rx="2.5"/><path d="M9 4.5V3.6A1.6 1.6 0 0110.6 2h2.8A1.6 1.6 0 0115 3.6v.9zM9 13l2.2 2.2L15.5 11"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M3.5 13h4l1.5 3h6l1.5-3h4"/><path d="M5.6 5.4h12.8l2.1 7.6v4.5a2 2 0 01-2 2H5.5a2 2 0 01-2-2V13z"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.2 12.3l2.6 2.6 5-5.2"/></symbol>
+  <symbol id="i-x-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.2 9.2l5.6 5.6M14.8 9.2l-5.6 5.6"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.6 13.4L7.5 21l4.5-2.3L16.5 21l-1.1-7.6"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.4"/><path d="M3.2 19.5a5.8 5.8 0 0111.6 0M16 5.6a3.4 3.4 0 010 5.8M17.6 14.4a5.6 5.6 0 013.2 5.1"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s6.5-6.1 6.5-11a6.5 6.5 0 10-13 0c0 4.9 6.5 11 6.5 11z"/><circle cx="12" cy="10.3" r="2.5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.8h6a3 3 0 013 3v12a2.4 2.4 0 00-2.4-2.4H4zM20 4.8h-6a3 3 0 00-3 3v12a2.4 2.4 0 012.4-2.4H20z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.8l7.5 3v5.6c0 4.6-3.1 8.8-7.5 10.1-4.4-1.3-7.5-5.5-7.5-10.1V5.8z"/><path d="M9 12l2.2 2.2 4-4.2"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 12.6c0 3.9-3.8 7-8.5 7-1.2 0-2.3-.2-3.3-.5L3.5 20.5l1.6-4a6.6 6.6 0 01-1.6-4.3c0-3.9 3.8-7 8.5-7s8.5 3.1 8.5 7z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M21 16.9v2.6a1.8 1.8 0 01-2 1.8 17.6 17.6 0 01-7.7-2.7 17.3 17.3 0 01-5.3-5.3A17.6 17.6 0 013.3 5.5 1.8 1.8 0 015.1 3.5h2.6a1.8 1.8 0 011.8 1.6c.1.9.3 1.8.7 2.6a1.8 1.8 0 01-.4 2l-1.1 1.1a14 14 0 005.3 5.3l1.1-1.1a1.8 1.8 0 012-.4c.8.3 1.7.6 2.6.7A1.8 1.8 0 0121 16.9z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.8v5"/><circle cx="12" cy="16.2" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6.5h11M9 12h11M9 17.5h11M4.5 6.5h.01M4.5 12h.01M4.5 17.5h.01"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19.5v-15M5.5 11L12 4.5 18.5 11"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9.5l6 6 6-6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5.5 21V3.8M5.5 4.6h10l-1.6 3.4 1.6 3.4h-10"/></symbol>
+</defs></svg>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<nav class="quicknav" id="top" aria-label="Page sections">
+  <div class="quicknav-in">
+    <a href="#todo"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg>What to do</a>
+    <a href="#timeline"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Dates</a>
+    <a href="#studies"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg>Studies</a>
+    <a href="#location"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Location</a>
+    <a href="#faq"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-help"/></svg>FAQ</a>
+    <a href="#contact"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Contact</a>
+  </div>
+</nav>
+
+<a class="top-btn" href="#top" aria-label="Back to top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></a>
+
+<main id="main" class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">BUAD 497 · Strategic Management</p>
+    <h1 class="title">Research Participation</h1>
+
+    <dl class="glance">
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-target"/></svg></span><span>What</span></dt>
+        <dd>Earn <b>2.0 research credits</b> by taking part in Marshall studies.<span class="sub">Most students finish in 3 to 6 studies, at 0.25 to 1.0 credits each.</span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></span><span>Why</span></dt>
+        <dd>It strengthens your BUAD 497 class participation grade.<span class="sub">Your instructor sets how credits become points. Check your syllabus.</span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></span><span>When</span></dt>
+        <dd>All credits are due <b>before Thanksgiving recess (Nov 25)</b>.<span class="sub">Setup is happening now: account email this week, prescreening in class next week.</span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-laptop"/></svg></span><span>How</span></dt>
+        <dd>Everything runs through <b>SONA</b>: <a href="https://marshall-mor.sona-systems.com">marshall-mor.sona-systems.com</a><span class="sub">You are invited by email, then complete studies online or in person.</span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-help"/></svg></span><span>Who to ask</span></dt>
+        <dd>The Lab, not your professor: <a href="mailto:mor.sona@marshall.usc.edu">mor.sona@marshall.usc.edu</a><span class="sub">Or Slack, #buad497-research-participation, which is fastest.</span></dd>
+      </div>
+    </dl>
+
+    <p class="badges">
+      <span class="badge-pill"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Voluntary and confidential</span>
+      <span class="badge-pill"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Never shared with your instructor</span>
+      <span class="badge-pill"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>On your own schedule</span>
+    </p>
+  </header>
+
+  <!-- ===== What to do ===== -->
+  <section id="todo">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg>What to Do</h2>
+    <p class="sec-sub">Six steps, start to finish. Tap a box to check it off, and this page remembers.</p>
+
+    <div class="prog">
+      <p class="prog-head"><span>Your progress</span><span class="prog-count" id="progCount">0 of 6 complete</span></p>
+      <span class="prog-track"><span class="prog-fill" id="progFill" role="progressbar" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" aria-label="Steps completed"></span></span>
+    </div>
+
+    <div class="task" id="task1">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span>
+      <div>
+        <span class="t-when">This week · Sept 14–18</span>
+        <h3>Watch for your SONA email</h3>
+        <p>Your account is being reactivated this week. The email has your temporary password. Check spam if you do not see it.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="email"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="task" id="task2">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-key"/></svg></span>
+      <div>
+        <span class="t-when">This week · Sept 14–18</span>
+        <h3>Log into SONA</h3>
+        <p>Go to <a href="https://marshall-mor.sona-systems.com">marshall-mor.sona-systems.com</a>. Your username is your NetID only, such as smithj, not your full email.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="login"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="task" id="task3">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg></span>
+      <div>
+        <span class="t-when">Next week · Sept 21–25</span>
+        <h3>Complete prescreening in class</h3>
+        <p>About 10 minutes, during one of your classes. Your professor will share the exact day and instructions.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="prescreen"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="note warn" style="margin:14px 0">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>
+      <p><b>Those three steps unlock everything.</b> No study invitations arrive until you have logged in and finished prescreening.</p>
+    </div>
+
+    <div class="task later" id="task4">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-inbox"/></svg></span>
+      <div>
+        <span class="t-when">After prescreening</span>
+        <h3>Get study invitations</h3>
+        <p>Invitations arrive in your USC email with a unique access code. They go out in batches, so they will not all come at once.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="invites"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="task later" id="task5">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg></span>
+      <div>
+        <span class="t-when">Through the semester</span>
+        <h3>Take the studies</h3>
+        <p>Online studies: sign up and finish within 3 days. In-person studies: book a slot at VPD Lower Level, and cancel at least 6 hours ahead if plans change.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="participate"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="task later" id="task6">
+      <span class="t-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-award"/></svg></span>
+      <div>
+        <span class="t-when">By Nov 25</span>
+        <h3>Reach 2.0 credits</h3>
+        <p>Credits post within 24 hours of each study, and you can track your running total in SONA.</p>
+        <label class="t-check"><input type="checkbox" class="step-check" data-key="credits"> Mark complete</label>
+      </div>
+    </div>
+
+    <div class="goal">
+      <p class="bignum"><span class="n">2.0</span><span class="l">CREDITS</span></p>
+      <div>
+        <p>That is your whole semester goal, due before Thanksgiving recess (Nov 25–29). Going over 2.0 does not
+          earn extra credit, but researchers always appreciate the extra participants.</p>
+        <p class="cps"><b>0.25</b> for 5–15 min &nbsp;·&nbsp; <b>0.5</b> for about 30 min &nbsp;·&nbsp; <b>1.0</b> for 30–60 min</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Timeline ===== -->
+  <section id="timeline">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>Key Dates</h2>
+    <p class="sec-sub">Where things stand as of Wednesday, Sept 16</p>
+
+    <div class="shell tl-wrap">
+      <div class="tl-row now done">
+        <span class="tl-dot"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span>
+        <div class="tl-body">
+          <span class="tl-when">This week · Sept 14–18</span><span class="now-tag">You are here</span>
+          <h3>Accounts reactivated</h3>
+          <p>Your SONA login email goes out. Log in when it arrives.</p>
+        </div>
+      </div>
+      <div class="tl-row soon">
+        <span class="tl-dot"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg></span>
+        <div class="tl-body">
+          <span class="tl-when">Next week · Sept 21–25</span>
+          <h3>Prescreening in class</h3>
+          <p>About 10 minutes during one of your classes. Your professor will say when.</p>
+        </div>
+      </div>
+      <div class="tl-row later">
+        <span class="tl-dot"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-inbox"/></svg></span>
+        <div class="tl-body">
+          <span class="tl-when">Late Sept onward</span>
+          <h3>Invitations begin</h3>
+          <p>Studies open to you by email, in rotating batches, through the semester.</p>
+        </div>
+      </div>
+      <div class="tl-row later">
+        <span class="tl-dot"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-flag"/></svg></span>
+        <div class="tl-body">
+          <span class="tl-when">By Nov 25</span>
+          <h3>All 2.0 credits due</h3>
+          <p>Before Thanksgiving recess (Nov 25–29). Check your syllabus for your section's exact date.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="note" style="margin-top:14px">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
+      <p>No reactivation email by the end of this week? Check spam first, then email
+        <a href="mailto:mor.sona@marshall.usc.edu">mor.sona@marshall.usc.edu</a> and we will look into it.</p>
+    </div>
+  </section>
+
+  <!-- ===== Reference accordions ===== -->
+  <section id="studies">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Details</h2>
+    <p class="sec-sub">Open any section you need. Everything else stays out of your way.</p>
+    <button type="button" class="expand-all" id="expandAll" aria-expanded="false">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg><span>Open all sections</span>
+    </button>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg></span>
+        <h2 class="sum-h">Study types<span class="s-note">Online vs in person, and what each involves</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <div class="grid2">
+          <div class="pair">
+            <p class="pair-head red"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg>Online studies</p>
+            <div class="pair-body">
+              <table class="spec">
+                <tr><th scope="row">Where</th><td>Anywhere</td></tr>
+                <tr><th scope="row">How long</th><td>Usually 5–30 minutes</td></tr>
+                <tr><th scope="row">Deadline</th><td>Sign up and finish within 3 days of the invitation</td></tr>
+                <tr><th scope="row">Format</th><td>One uninterrupted sitting</td></tr>
+                <tr><th scope="row">You need</th><td>Laptop or desktop, stable internet, working audio</td></tr>
+                <tr><th scope="row">Expect</th><td>Surveys, decision tasks, scenarios</td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="pair">
+            <p class="pair-head gold"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg>In-person studies</p>
+            <div class="pair-body">
+              <table class="spec">
+                <tr><th scope="row">Where</th><td>VPD Lower Level (LL102, LL110, LL112)</td></tr>
+                <tr><th scope="row">How long</th><td>Usually 30–60 minutes</td></tr>
+                <tr><th scope="row">Booking</th><td>Up to 1–2 weeks ahead</td></tr>
+                <tr><th scope="row">Bring</th><td>Confirmation email and your SONA ID</td></tr>
+                <tr><th scope="row">Canceling</th><td>At least 6 hours notice</td></tr>
+                <tr><th scope="row">Expect</th><td>Computer tasks, group activities, interviews</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-inbox"/></svg></span>
+        <h2 class="sum-h">How invitations work<span class="s-note">Why they arrive when they do</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <ul class="list">
+          <li>Studies are invitation-only, and your unique access code unlocks each one.</li>
+          <li>Capacity is limited, with about 1,500 students in the program, so invitations go out in rotating batches.</li>
+          <li>If you are not invited to a particular study, more opportunities follow.</li>
+        </ul>
+        <h3>Online invitations</h3>
+        <p class="prose" style="margin:0;font-size:15.5px;color:var(--text-soft)">Your spot is guaranteed. Sign up and complete the study within 3 days. If the window passes, the spot goes to the next group.</p>
+        <h3>In-person invitations</h3>
+        <p class="prose" style="margin:0;font-size:15.5px;color:var(--text-soft)">These go to all eligible students at once. You are booking a specific appointment slot, usually 1–2 weeks out, so pick any time that works for you.</p>
+        <h3>What affects how often you are invited</h3>
+        <ul class="list">
+          <li><b>Setup finished:</b> both login and prescreening are done</li>
+          <li><b>Study fit:</b> your prescreening answers match what researchers need, so please answer honestly</li>
+          <li><b>Availability:</b> how many studies are running that week</li>
+          <li><b>Track record:</b> consistent attendance</li>
+        </ul>
+        <div class="note" style="margin-top:14px">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-help"/></svg>
+          <p><b>No invitation yet?</b> That is expected, and there is nothing you need to do. Questions about studies come to the Lab rather than your professor, since we hold the schedule.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg></span>
+        <h2 class="sum-h">Rules and canceling<span class="s-note">How to take part, and what to do if plans change</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <h3>While taking a study</h3>
+        <ul class="list">
+          <li>Please do not discuss study content with others, since it can bias their responses</li>
+          <li>Answer thoughtfully and honestly</li>
+          <li>Find a quiet space with few distractions for online studies</li>
+          <li>Read the instructions before you begin, and give yourself enough time</li>
+          <li>Watch for attention-check questions</li>
+        </ul>
+        <h3>Canceling</h3>
+        <p class="prose" style="font-size:15.5px;color:var(--text-soft);margin:0 0 12px">Plans change, and canceling properly is always better than missing a session.</p>
+        <ul class="list">
+          <li><b>In person:</b> cancel at least 6 hours ahead, by replying to your confirmation email or in SONA</li>
+          <li><b>Online:</b> if you cannot finish within the 3-day window, reply to the invitation email so we can reassign your spot</li>
+        </ul>
+        <div class="grid2" style="margin-top:16px">
+          <div class="ex yes">
+            <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Excused</h3>
+            <ul><li>Canceled within the required timeframe</li><li>Told us the reason, such as illness, an emergency, or a technical issue</li></ul>
+          </div>
+          <div class="ex no">
+            <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x-circle"/></svg>Unexcused</h3>
+            <ul><li>No-show without notice</li><li>Late cancellation without a reason</li><li>Repeated missed commitments</li></ul>
+          </div>
+        </div>
+        <div class="note gold" style="margin-top:14px">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>
+          <p>Unexcused absences deprioritize you for that study, and possibly for later ones, so a make-up is not guaranteed. If something comes up, contact us as early as you can and we will do what we can to help.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-help"/></svg></span>
+        <h2 class="sum-h">Before you start<span class="s-note">Ground rules and who handles what</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <ul class="list">
+          <li><b>Fresh start:</b> credits from BUAD 304 or other courses do not carry over. Everyone begins at zero.</li>
+          <li><b>One setup unlocks everything:</b> logging in and finishing prescreening is all it takes.</li>
+          <li><b>New to SONA:</b> you do not create an account. The Lab makes one for every enrolled student, and your username is your USC NetID.</li>
+          <li><b>Under 18:</b> please contact your professor.</li>
+        </ul>
+        <h3>Who to ask about what</h3>
+        <div class="grid2">
+          <div class="pair">
+            <p class="pair-head grey"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg>Your professor</p>
+            <div class="pair-body"><ul><li>Your section's participation deadline</li><li>How credits count toward your grade</li></ul></div>
+          </div>
+          <div class="pair">
+            <p class="pair-head red"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>The Lab, that's us</p>
+            <div class="pair-body"><ul><li>When invitations go out and which studies are open</li><li>Where, when, and how to take part</li><li>Scheduling, credits, tech, and accommodations</li></ul></div>
+          </div>
+        </div>
+        <div class="note warn" style="margin-top:14px">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>
+          <p><b>Your professor does not hold the study schedule. We do.</b> Send anything about the studies to
+            <a href="mailto:mor.sona@marshall.usc.edu">mor.sona@marshall.usc.edu</a> or Slack at #buad497-research-participation.</p>
+        </div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></span>
+        <h2 class="sum-h">Why this matters for 497<span class="s-note">The reasoning behind the requirement</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <div class="why-grid">
+          <div class="why-card"><h3>Strategy runs on behavior</h3><p>BUAD 497 treats strategy as decisions made under uncertainty. Those decisions hinge on how people and organizations actually behave, which is what these studies examine.</p></div>
+          <div class="why-card"><h3>You weigh real evidence</h3><p>The course expects you to assess the evidence behind strategy concepts rather than take it at face value. Taking part shows you how that evidence is produced.</p></div>
+          <div class="why-card"><h3>Research from the inside</h3><p>Most students only read about studies. Here you take part in one, and your responses feed research that reaches publication and practice.</p></div>
+        </div>
+        <div class="note" style="margin-top:14px">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>
+          <p>Participation is voluntary, and you may withdraw from any study at any time without affecting your grade or standing. Responses stay confidential, are never linked to your identity, and every study is approved by the USC Institutional Review Board.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===== Location ===== -->
+  <section id="location">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Where In-Person Studies Happen</h2>
+    <div class="grid2 loc-grid">
+      <div class="loc">
+        <p class="addr">Verna &amp; Peter Dauterive Hall (VPD), Lower Level</p>
+        <p class="addr2">645 W Exposition Blvd, Los Angeles, CA 90089</p>
+        <p class="how">Go in the main entrance and take the wooden staircase down to the Lower Level. Ring the doorbell at your assigned room, since all lab doors are card-access locked.</p>
+        <p class="how" style="margin:0"><b>In group sessions,</b> everyone stays until the last person finishes.</p>
+      </div>
+      <div class="qr-card">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAFKCAIAAAD0S4FSAAAGP0lEQVR4nO3dMbLbNhRA0SjjVXirqbPVbINpXWES48N4vD6np0RRvIPmDfB5nucPoOjP2zcAnCJvyJI3ZMkbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuy5A1Z8oYseUOWvCFL3pAlb8iSN2R927n4r8/3r7qPIf5+/vnpa3eexs73nrP+Ret73rl2h3fyR1ZvyJI3ZMkbsuQNWfKGLHlDlrwhS96QJW/I2ppaW3vjJNa5a3835+b/dj65906uWb0hS96QJW/IkjdkyRuy5A1Z8oYseUOWvCHr4NTa2rlJnVuTSTt7j52zMwF2a+e5W3rvpNUbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuyrk2t9cw8E3Pm5NnMCb8eqzdkyRuy5A1Z8oYseUOWvCFL3pAlb8iSN2SZWvsfdmatZu61dsvMu+qxekOWvCFL3pAlb8iSN2TJG7LkDVnyhix5Q9a1qbVbZyaeszPTdu7aHTuzZW/8f994z2tWb8iSN2TJG7LkDVnyhix5Q5a8IUvekCVvyDo4tdbbT+vW9NiOc/f8xim93ju5ZvWGLHlDlrwhS96QJW/IkjdkyRuy5A1Z8oasram1mXNabzRztmzHzO/93Vi9IUvekCVvyJI3ZMkbsuQNWfKGLHlDlrwha2tqzd5j/92tKa43fvK5ZzVzn7Zzb53VG7LkDVnyhix5Q5a8IUvekCVvyJI3ZMkbsl55Quit8yVnTlOdc+6u1s/q1mThuVNNb7F6Q5a8IUvekCVvyJI3ZMkbsuQNWfKGLHlD1ud5np++eOaUz8zZst73npstu/VezZwd3GH1hix5Q5a8IUvekCVvyJI3ZMkbsuQNWfKGrKF7rc2cTLr1i2buHjfztM21me/VOVZvyJI3ZMkbsuQNWfKGLHlDlrwhS96QJW/IOji1dm6O59Y+Xmu3JqJm7ng3867Wbk2enXsnrd6QJW/IkjdkyRuy5A1Z8oYseUOWvCFL3pC1dULo2rlZnHNunVs60xt3y5v5D97axc3qDVnyhix5Q5a8IUvekCVvyJI3ZMkbsuQNWVtTa7f2xFp746mX52babk1x3dprbea5pbdmFq3ekCVvyJI3ZMkbsuQNWfKGLHlDlrwhS96QdXCvtTd64xzeObcm/Gbu0zbz2jWrN2TJG7LkDVnyhix5Q5a8IUvekCVvyJI3ZH3budhU04Rr1964i9vaG9+rtXP/kdUbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuyDp4Qemte6tZU084nr71xSm9t5p52a2+cabN6Q5a8IUvekCVvyJI3ZMkbsuQNWfKGLHlD1tZea2sz97WaeZLjzKdx65NnTum9cYbP6g1Z8oYseUOWvCFL3pAlb8iSN2TJG7LkDVkHp9bO7bW29sa5tB0zzwCdOR+2443/oNUbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuyDk6trZ2biNr53luffOvEzJ3v3fm952babnFCKPBLyRuy5A1Z8oYseUOWvCFL3pAlb8iSN2R9nue5fQ+vcWsPsFtzWjNP6pz5nG/tALdm9YYseUOWvCFL3pAlb8iSN2TJG7LkDVnyhqytvdZm7nq1Y2eHsB1v3Kdt7dY9z5x4uzXTZvWGLHlDlrwhS96QJW/IkjdkyRuy5A1Z8oasgyeEztx9aua81LlnNXO/tHNuPcm1WzNtVm/IkjdkyRuy5A1Z8oYseUOWvCFL3pAlb8g6OLW2dm6q6da03K35sHNmzrTdmoebuZvamtUbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuyrk2t9dyaS5s5pbdz7cwJv/VdnTvjdecXWb0hS96QJW/IkjdkyRuy5A1Z8oYseUOWvCHL1Novcu58yXPfu3ZuTmtt5smka04IBb6YvCFL3pAlb8iSN2TJG7LkDVnyhix5Q9a1qbWZJyqeM3PybOZMW4+91oAvJm/IkjdkyRuy5A1Z8oYseUOWvCFL3pB1cGpt5q5XO27tLnZuqmnmuZZrM+955lSi1Ruy5A1Z8oYseUOWvCFL3pAlb8iSN2TJG7I+z/PcvgfgCKs3ZMkbsuQNWfKGLHlDlrwhS96QJW/IkjdkyRuy5A1Z8oYseUOWvCFL3pAlb8iSN2TJG7LkDVn/AshzNP9NCDgAAAAAAElFTkSuQmCC" alt="QR code that opens Google Maps directions to Dauterive Hall">
+        <p class="cap"><a href="https://maps.app.goo.gl/793nVebtYDwC9xEE8">Open in Google Maps</a></p>
+      </div>
+    </div>
+
+    <div class="floor-wrap">
+      <p class="floor-hint">Lab floor plan, VPD Lower Level. Scroll sideways to see all of it.</p>
+      <div class="floor-scroll" tabindex="0" role="group" aria-label="Scrollable floor plan of the VPD Lower Level">
+        <div class="floor" role="img" aria-label="Floor plan: LL102 Computer Lab sits at the lower left, LL110 and LL112 suites at the upper right, with entrances at both ends, a central staircase, exits above and below it, and restrooms and an elevator along the left side.">
+          <div class="fp ent"  style="left:0;top:42%;width:34px;height:60px">ENT</div>
+          <div class="fp ent"  style="right:0;top:42%;width:34px;height:60px">ENT</div>
+          <div class="fp util" style="left:44px;top:14px;width:54px;height:40px">WC</div>
+          <div class="fp util" style="left:44px;top:60px;width:54px;height:40px">ELEV</div>
+          <div class="fp util" style="left:44px;top:106px;width:54px;height:40px">WC</div>
+          <div class="fp lab"  style="left:44px;bottom:18px;width:150px;height:62px">LL102<br><small>Computer Lab</small></div>
+          <div class="fp stairs" style="left:50%;top:50%;transform:translate(-50%,-50%);width:170px;height:96px">STAIRS</div>
+          <div class="fp exit" style="left:50%;top:14px;transform:translateX(-50%);width:64px;height:30px">EXIT</div>
+          <div class="fp exit" style="left:50%;bottom:14px;transform:translateX(-50%);width:64px;height:30px">EXIT</div>
+          <div class="fp suite" style="right:120px;top:30px;width:96px;height:64px">LL112<br><small>Suite</small></div>
+          <div class="fp suite" style="right:16px;top:30px;width:96px;height:64px">LL110<br><small>Suite</small></div>
+          <div class="compass">N</div>
+        </div>
+      </div>
+      <p class="fp-legend">
+        <span><i class="sw" style="background:#7d6209"></i>Computer lab</span>
+        <span><i class="sw" style="background:#7a0019"></i>Suite</span>
+        <span><i class="sw" style="background:#6a5207"></i>Entrance</span>
+        <span><i class="sw" style="background:#8f0014"></i>Exit</span>
+        <span><i class="sw" style="background:#eceae3;border:1px dashed #b9b1a3"></i>Stairs</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-help"/></svg>FAQ</h2>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-key"/></svg></span>
+        <h2 class="sum-h">Account and login problems<span class="s-note">No email, cannot log in, prescreening will not save</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <div class="qa"><h4>No SONA reactivation email?</h4>
+          <p>We process these by hand after rosters are final. Check spam first. If it still has not arrived by the end of this week, email <a href="mailto:mor.sona@marshall.usc.edu">mor.sona@marshall.usc.edu</a> and we will follow up.</p></div>
+        <div class="qa"><h4>Cannot log in?</h4>
+          <p>Use the temporary password from that email, or choose Forgot Password on the SONA homepage.</p></div>
+        <div class="qa"><h4>Username not working?</h4>
+          <p>Use your NetID only, such as smithj, not smithj@usc.edu.</p></div>
+        <div class="qa" style="margin-bottom:0"><h4>Prescreening will not save?</h4>
+          <p style="margin-bottom:0">It is built for one sitting, with no partial saves, so give yourself uninterrupted time.</p></div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-inbox"/></svg></span>
+        <h2 class="sum-h">Invitations and sessions<span class="s-note">Nothing arriving, missed one, or missed a session</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <div class="qa"><h4>No study invitations yet?</h4>
+          <p>They begin only after you log in and finish prescreening, since both are required. After that they roll out in batches.</p></div>
+        <div class="qa"><h4>Missed an invitation?</h4>
+          <p>Your priority for that study moves to the end of the semester, so another chance is not guaranteed. If you know you cannot commit, reply to the invitation to cancel before the 3-day window closes.</p></div>
+        <div class="qa" style="margin-bottom:0"><h4>Missed an in-person session?</h4>
+          <p style="margin-bottom:0">Contact us as soon as you can. If spots are available, we may be able to reschedule you.</p></div>
+      </div>
+    </details>
+
+    <details class="acc">
+      <summary>
+        <span class="s-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-award"/></svg></span>
+        <h2 class="sum-h">Credits and grades<span class="s-note">How credits count, how many studies, missing credits</span></h2>
+        <svg class="icon chev" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg>
+      </summary>
+      <div class="acc-body">
+        <div class="qa"><h4>How does this affect my grade?</h4>
+          <p>Your instructor sets how participation credits become points, so check your syllabus or ask them directly.</p></div>
+        <div class="qa"><h4>How many studies will I need?</h4>
+          <p>Usually 3 to 6, depending on length. As long as setup is done on time, there will be enough studies to reach the full 2.0 credits.</p></div>
+        <div class="qa" style="margin-bottom:0"><h4>Credits not showing up?</h4>
+          <p style="margin-bottom:0">They usually post within 24 hours. If it has been longer, email us the study name and completion date and we will look into it.</p></div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Get in Touch</h2>
+    <p class="sec-sub">Still stuck? Any of these reaches us directly.</p>
+    <div class="touch-grid">
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Slack, fastest</h3>
+        <p class="big">#buad497-research-participation</p>
+        <p>Direct messages and live updates</p>
+      </div>
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Participation team</h3>
+        <p class="big"><a href="mailto:mor.sona@marshall.usc.edu">mor.sona@marshall.usc.edu</a></p>
+        <p>213.821.9752</p>
+        <p>Replies in 24 hours on weekdays, 48 on weekends</p>
+      </div>
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Program manager</h3>
+        <p class="big">Brian Huh</p>
+        <p><a href="mailto:huhb@marshall.usc.edu">huhb@marshall.usc.edu</a></p>
+        <p>213.821.9746</p>
+      </div>
+    </div>
+
+    <div class="guide-cta">
+      <div>
+        <strong>Bookmark this guide</strong>
+        <p>The current version always lives at bit.ly/sona-buad497</p>
+      </div>
+      <a class="btn" href="https://bit.ly/sona-buad497">bit.ly/sona-buad497</a>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>BUAD 497 Research Participation Program · USC Marshall Behavioral Research Lab</p>
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.step-check'));
+  var fill = document.getElementById('progFill');
+  var count = document.getElementById('progCount');
+  function paint(){
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    if(fill){ fill.style.width = (done/boxes.length*100) + '%'; fill.setAttribute('aria-valuenow', done); }
+    if(count){ count.textContent = done + ' of ' + boxes.length + ' complete'; }
+  }
+  boxes.forEach(function(cb){
+    var key = 'buad497-step-' + cb.dataset.key;
+    var card = cb.closest('.task');
+    try{ if(localStorage.getItem(key) === '1'){ cb.checked = true; if(card) card.classList.add('done'); } }catch(e){}
+    cb.addEventListener('change', function(){
+      if(card) card.classList.toggle('done', cb.checked);
+      try{ localStorage.setItem(key, cb.checked ? '1' : '0'); }catch(e){}
+      paint();
+    });
+  });
+  paint();
+
+  var btn = document.getElementById('expandAll');
+  if(btn){
+    btn.addEventListener('click', function(){
+      var accs = document.querySelectorAll('details.acc');
+      var opening = btn.getAttribute('aria-expanded') !== 'true';
+      accs.forEach(function(d){ d.open = opening; });
+      btn.setAttribute('aria-expanded', opening ? 'true' : 'false');
+      btn.querySelector('span').textContent = opening ? 'Close all sections' : 'Open all sections';
+    });
+  }
+})();
+</script>
+</body>
+</html>
